@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class HashMapex {
 
 	/**
-	 * @param args
+	 * @param args Hey its a Hashmaoex!!!
 	 */
 	public static void main(String[] args) {
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
@@ -21,6 +21,7 @@ public class HashMapex {
 		
 		for(Integer key :map.keySet())
 		{
+			System.out.println(map.get(key));
 			System.out.println(map.get(key));
 		}
 	}
